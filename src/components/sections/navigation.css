@@ -1,0 +1,33 @@
+.navigationDiv {
+  padding-top: 45px;
+}
+.navigationLink {
+  line-height: 2.6;
+  position: relative;
+  padding-left: 30px;
+  min-width: 100px; /* Adjust this value based on your content */
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+}
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.navigationLink:hover a {
+  transition-duration: 0.5s;
+  padding-left: 30px;
+}
+.navigationLink:hover .line {
+  width: 60px;
+  transition-duration: 1s;
+}
