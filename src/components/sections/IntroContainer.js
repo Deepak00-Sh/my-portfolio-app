@@ -7,9 +7,9 @@ function IntroHeadingContainer() {
       <h3 className="headingDesignation">
         Software Engineer at Giesceke & Devrients MS
       </h3>
-      <h2 className="headingTagline">
-        I build feature loaded products for desktop and beyond
-      </h2>
+      <p className="headingTagline">
+        I build feature loaded accessible products for desktop and beyond
+      </p>
     </div>
   );
 }

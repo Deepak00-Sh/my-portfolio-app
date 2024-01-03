@@ -1,11 +1,15 @@
 .navigationDiv {
-  padding-top: 45px;
+  padding-top: 55px;
 }
 .navigationLink {
-  line-height: 2.6;
+  line-height: 3;
   position: relative;
   padding-left: 30px;
-  min-width: 100px; /* Adjust this value based on your content */
+  display: block;
+}
+li {
+  display: inline-block;
+  max-width: 20%;
 }
 
 .line {
@@ -30,4 +34,10 @@ a {
 .navigationLink:hover .line {
   width: 60px;
   transition-duration: 1s;
+}
+
+@media screen and (max-width: 468px) {
+  .navigationLink {
+    display: none;
+  }
 }

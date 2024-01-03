@@ -4,24 +4,30 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faLinkedin,
+  faSquareInstagram,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 const icons = [
   {
     iconName: "github",
-    icon: <FontAwesomeIcon icon={faGithub} />,
+    icon: <FontAwesomeIcon icon={faGithub} size="2x" />,
     url: "https://github.com/yourusername",
   },
   {
     iconName: "linkedIn",
-    icon: <FontAwesomeIcon icon={faLinkedin} />,
+    icon: <FontAwesomeIcon icon={faLinkedin} size="2x" />,
     url: "https://linkedin.com/in/yourusername",
   },
   {
     iconName: "twitter",
-    icon: <FontAwesomeIcon icon={faTwitter} />,
+    icon: <FontAwesomeIcon icon={faTwitter} size="2x" />,
     url: "https://twitter.com/yourusername",
+  },
+  {
+    iconName: "Instagram",
+    icon: <FontAwesomeIcon icon={faSquareInstagram} size="2x" />,
+    url: "https://instagram.com/yourusername",
   },
 ];
 

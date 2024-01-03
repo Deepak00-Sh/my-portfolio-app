@@ -2,14 +2,32 @@
   box-sizing: border-box;
   list-style-type: none;
   font-size: 13px;
+  line-height: 1.6;
 }
 
 .headingName {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 4px;
+  line-height: 1.5;
 }
 .headingDesignation {
   margin-bottom: 10px;
   font-size: 16px;
+}
+@media screen and (min-width: 769px) {
+  .headingName {
+    font-size: 48px;
+    font-weight: 800;
+    transition-duration: 0.5s;
+  }
+
+  .headingDesignation {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 468px) {
+  * {
+    transition-duration: 0.5s;
+  }
 }

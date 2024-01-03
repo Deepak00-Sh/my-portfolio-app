@@ -1,6 +1,28 @@
 * {
   box-sizing: border-box;
 }
+
+.iconSpan {
+  margin-right: 15px; /* Adjust the spacing as needed */
+}
+
+/* Additional styling for the icons (adjust as needed) */
 .socialList {
-  padding-top: 50px;
+  display: flex;
+}
+
+/* Optional: Center the icons horizontally and vertically */
+.socialList {
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .socialList {
+    padding-top: 70px;
+  }
+}
+@media screen and (min-width: 468px) {
+  .socialList {
+    padding-top: 70px;
+  }
 }
