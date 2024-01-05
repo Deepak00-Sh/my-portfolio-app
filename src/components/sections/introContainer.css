@@ -10,10 +10,15 @@
   font-weight: 700;
   margin-bottom: 4px;
   line-height: 1.5;
+  color: rgb(214, 226, 245);
 }
 .headingDesignation {
   margin-bottom: 10px;
   font-size: 16px;
+  color: rgb(212, 224, 244);
+}
+.headingTagline {
+  color: rgb(173, 187, 210);
 }
 @media screen and (min-width: 769px) {
   .headingName {

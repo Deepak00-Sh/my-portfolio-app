@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: rgba(59, 130, 246, 0.5);
 }
 * {
   font-family: "Merriweather", sans-serif;
@@ -15,6 +14,9 @@
   list-style-type: none;
 
   /* background: (600px at 910px 473px, rgba(29, 78, 216, 0.15), transparent 80%); */
+}
+body {
+  background-color: rgb(15 23 42 / 1);
 }
 .mainLeftContainer {
   padding: 60px;
