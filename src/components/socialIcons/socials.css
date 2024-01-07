@@ -26,3 +26,13 @@
     padding-top: 70px;
   }
 }
+@media screen and (min-width: 1028px) {
+  .socialList {
+    padding-top: 70px;
+  }
+}
+@media screen and (min-width: 1428px) {
+  .socialList {
+    padding-top: 70px;
+  }
+}
