@@ -8,7 +8,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
-const icons = [
+export const icons = [
   {
     iconName: "github",
     icon: <FontAwesomeIcon icon={faGithub} size="2x" />,
@@ -31,7 +31,7 @@ const icons = [
   },
 ];
 
-function Icon(props) {
+export function Icon(props) {
   return (
     <span className="iconSpan">
       <a href={props.url} target="_blank" rel="noopener noreferrer">
@@ -40,15 +40,3 @@ function Icon(props) {
     </span>
   );
 }
-
-function SocialsLinksList() {
-  return (
-    <div className="socialList">
-      {icons.map((icon) => {
-        return <Icon key={icon.iconName} icon={icon.icon} url={icon.url} />;
-      })}
-    </div>
-  );
-}
-
-export default SocialsLinksList;
