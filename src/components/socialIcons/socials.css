@@ -36,3 +36,18 @@
     padding-top: 70px;
   }
 }
+@media screen and (min-width: 468px) {
+  .iconSpan {
+    margin-right: 15px;
+  }
+}
+@media screen and (min-width: 1028px) {
+  .iconSpan {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1428px) {
+  .iconSpan {
+    margin-right: 22px;
+  }
+}
