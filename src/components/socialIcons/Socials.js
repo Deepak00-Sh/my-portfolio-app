@@ -24,11 +24,6 @@ export const icons = [
     icon: <FontAwesomeIcon icon={faTwitter} size="2x" />,
     url: "https://twitter.com/yourusername",
   },
-  {
-    iconName: "Instagram",
-    icon: <FontAwesomeIcon icon={faSquareInstagram} size="2x" />,
-    url: "https://instagram.com/yourusername",
-  },
 ];
 
 export function Icon(props) {
