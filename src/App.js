@@ -3,8 +3,10 @@ import LeftSection from "./components/mainSections/LeftSection";
 
 export default function App() {
   return (
-    <main>
-      <LeftSection />
-    </main>
+    <>
+      <main>
+        <LeftSection />
+      </main>
+    </>
   );
 }
